@@ -1,0 +1,430 @@
+{
+  "App": {
+    "HOST_MAINGAME": {
+      "host": "api.game.local",
+      "subdomain": "common",
+      "port": 443,
+      "ConnectionToken": ""
+    },
+    "HOST_MINIPOKER_GAME": {
+      "host": "api.game.local",
+      "subdomain": "mini",
+      "port": 443,
+      "ConnectionToken": "",
+      "GetAccountHistory": "http://api.game.local:9085/w-minipoker/api/GameAPI/GetAccountHistory",
+      "GetAccountHistoryDetails": "http://api.game.local:9085/w-minipoker/api/GameAPI/GetAccountHistoryDetails",
+      "GetTopWinners": "http://api.game.local:9085/w-minipoker/api/GameAPI/GetTopWinners",
+      "GetTopJackpots": "http://api.game.local:9085/w-minipoker/api/GameAPI/GetTopJackpot",
+      "EventThanhQuayTay": {
+        "GetPhien": "http://api.game.local:8088/event-thanhquaytay/getSessionList",
+        "GetTop": "http://api.game.local:8088/event-thanhquaytay/getTop",
+        "CheckEvent": "http://api.game.local:8088/event-thanhquaytay/checkEvent"
+      }
+    },
+    "HOST_CANDY_GAME": {
+      "host": "api.game.local",
+      "subdomain": "candy",
+      "port": 443,
+      "ConnectionToken": "",
+      "GetAccountHistory": "http://api.game.local:9080/w-candy/api/vuabai/GetHistory?topCount=100&betType=1&currPage=1&recordPerPage=100",
+      "GetHonorHistory": "http://api.game.local:9080/w-candy/api/vuabai/GetHonorHistory",
+      "GetJackpotHistory": "http://api.game.local:9080/w-candy/api/vuabai/GetJackpotHistory",
+      "EventSweetDay": {
+        "GetPhien": "http://api.game.local:8088/event-sweetday/getSessionList",
+        "GetTop": "http://api.game.local:8088/event-sweetday/getTop",
+        "CheckEvent": "http://api.game.local:8088/event-sweetday/checkEvent"
+      }
+    },
+    "HOST_ANGRYBIRD_GAME": {
+      "host": "api.game.local",
+      "subdomain": "",
+      "port": 443,
+      "ConnectionToken": "",
+      "chatNegotiate": "chimdien.p24.casino",
+      "GetHonorHistory": "http://api.game.local:9084/w-sieuxe/api/SuperNova/GetHonorHistory",
+      "AccountHistory": "http://api.game.local:9084/w-sieuxe/api/SuperNova/AccountHistory",
+      "GetJackpotHistory": "http://api.game.local:9084/w-sieuxe/api/SuperNova/GetJackpotHistory"
+    },
+    "HOST_THIENDIA_GAME": {
+      "host": "api.game.local",
+      "subdomain": "common",
+      "port": 443,
+      "ConnectionToken": ""
+    },
+    "HOST_TAIXIU_GAME": {
+      "host": "api.game.local",
+      "subdomain": "",
+      "port": 443,
+      "ConnectionToken": "",
+      "chatNegotiate": "tx.p24.casino",
+      "getTopWinner": "http://api.game.local:9082/w-taixiu/api/getTopDailyWinners",
+      "getAccountHistory": "http://api.game.local:9082/w-taixiu/api/getAccountHistory",
+      "GetListSoiCau": "http://api.game.local:9082/w-taixiu/api/GetListSoiCau",
+      "GetSessionsDetailNew": "http://api.game.local:9082/w-taixiu/api/GetSessionsDetailNew"
+    },
+    "HOST_XOCXOC_GAME": {
+      "host": "api.game.local",
+      "subdomain": "xocxoc",
+      "port": 443,
+      "ConnectionToken": "",
+      "getAccountHistory": "http://api.game.local:9088/w-xocxoc/api/getAccountHistory",
+      "getTopWinner": "http://api.game.local:9088/w-xocxoc/api/getTopDailyWinners",
+      "getRooms": "http://api.game.local:9088/w-xocxoc/api/getRooms"
+    },
+    "HOST_RONGHO_GAME": {
+      "host": "api.game.local",
+      "subdomain": "rongho",
+      "port": 443,
+      "ConnectionToken": "",
+      "getAccountHistory": "http://api.game.local:9091/w-rongho/GetAccountHistory",
+      "getTopWinner": "http://api.game.local:9091/w-rongho/GetHonor"
+    },
+    "HOST_FROZEN_GAME": {
+      "host": "api.game.local",
+      "subdomain": "frozen",
+      "port": 443,
+      "ConnectionToken": ""
+    },
+    "HOST_FINN_GAME": {
+      "host": "api.game.local",
+      "subdomain": "finn",
+      "port": 443,
+      "ConnectionToken": ""
+    },
+    "HOST_ALADDIN_GAME": {
+      "host": "api.game.local",
+      "subdomain": "aladdin",
+      "port": 443,
+      "ConnectionToken": "",
+      "GetAccountHistory": "http://api.game.local:8182/aladdin/api/AccountHistory",
+      "GetHonorHistory": "http://api.game.local:8182/aladdin/api/GetStatistic?MoneyType=1&WinType=-1&Start=1&Limit=100",
+      "GetJackpotHistory": "http://api.game.local:8182/aladdin/api/GetStatistic?MoneyType=1&WinType=-1&Start=1&Limit=100"
+    },
+    "HOST_LUCKY_WILD_GAME": {
+      "host": "api.game.local",
+      "subdomain": "luckywild",
+      "port": 443,
+      "ConnectionToken": ""
+    },
+    "HOST_TIKI_GAME": {
+      "host": "api.game.local",
+      "subdomain": "tiki",
+      "port": 443,
+      "ConnectionToken": ""
+    },
+    "HOST_FURY_GAME": {
+      "host": "api.game.local",
+      "subdomain": "fury",
+      "port": 443,
+      "ConnectionToken": ""
+    },
+    "HOST_NATRA_GAME": {
+      "host": "api.game.local",
+      "subdomain": "zero",
+      "port": 443,
+      "ConnectionToken": ""
+    },
+    "HOST_ICEAGE_GAME": {
+      "host": "api.game.local",
+      "subdomain": "iceage",
+      "port": 443,
+      "ConnectionToken": ""
+    },
+    "HOST_FROZENELSA_GAME": {
+      "host": "api.game.local",
+      "subdomain": "frozen2",
+      "port": 443,
+      "ConnectionToken": ""
+    },
+    "HOST_ROSHTEIN_GAME": {
+      "host": "api.game.local",
+      "subdomain": "roshtein",
+      "port": 443,
+      "ConnectionToken": ""
+    },
+    "HOST_MAYA_GAME": {
+      "host": "api.game.local",
+      "subdomain": "maya",
+      "port": 443,
+      "ConnectionToken": ""
+    },
+    "HOST_RAIDER_GAME": {
+      "host": "api.game.local",
+      "subdomain": "raider",
+      "port": 443,
+      "ConnectionToken": ""
+    },
+    "HOST_VALKY_GAME": {
+      "host": "api.game.local",
+      "subdomain": "valky",
+      "port": 443,
+      "ConnectionToken": ""
+    },
+    "HOST_SPIDER_GAME": {
+      "host": "api.game.local",
+      "subdomain": "spider",
+      "port": 443,
+      "ConnectionToken": ""
+    },
+    "HOST_SICBO_GAME": {
+      "host": "api.game.local",
+      "subdomain": "sicbo",
+      "port": 443,
+      "ConnectionToken": "",
+      "getAccountHistory": "http://api.game.local:9087/w-sicbo/api/getAccountHistory",
+      "getTopWinner": "http://api.game.local:9087/w-sicbo/api/getTopDailyWinners"
+    },
+    "HOST_XOCXOCJP_GAME": {
+      "host": "api.game.local",
+      "subdomain": "xocxocjp",
+      "port": 443,
+      "ConnectionToken": "",
+      "getAccountHistory": "http://api.game.local:9089/w-xocxocjp/api/getAccountHistory",
+      "getTopWinner": "http://api.game.local:9089/w-xocxocjp/api/getTopDailyWinners",
+      "getRooms": "http://api.game.local:9089/w-xocxocjp/api/getRooms"
+    },
+    "HOST_XOCXOCJPMD5_GAME": {
+      "host": "api.game.local",
+      "subdomain": "xocxocmd5",
+      "port": 443,
+      "ConnectionToken": "",
+      "getAccountHistory": "http://api.game.local:9090/w-xocxocmd5/api/getAccountHistory",
+      "getTopWinner": "http://api.game.local:9090/w-xocxocmd5/api/getTopDailyWinners",
+      "getRooms": "http://api.game.local:9090/w-xocxocmd5/api/getRooms"
+    },
+    "HOST_ALDO_GAME": {
+      "host": "api.game.local",
+      "subdomain": "aldo",
+      "port": 443,
+      "ConnectionToken": ""
+    },
+    "HOST_HIPHOP_GAME": {
+      "host": "api.game.local",
+      "subdomain": "hiphop",
+      "port": 443,
+      "ConnectionToken": ""
+    },
+    "HOST_KENO_GAME": {
+      "host": "keno.p24.casino",
+      "subdomain": "keno",
+      "port": 443,
+      "ConnectionToken": ""
+    },
+    "HOST_TEMPLEGEMS_GAME": {
+      "host": "api.game.local",
+      "subdomain": "templegems",
+      "port": 443,
+      "ConnectionToken": ""
+    },
+    "HOST_SOLBEAST_GAME": {
+      "host": "api.game.local",
+      "subdomain": "solbeast",
+      "port": 443,
+      "ConnectionToken": ""
+    },
+    "HOST_TAIXIUMD5_GAME": {
+      "host": "api.game.local",
+      "subdomain": "",
+      "port": 443,
+      "ConnectionToken": "",
+      "chatNegotiate": "txmd5.p24.casino",
+      "getTopWinner": "http://api.game.local:9083/w-taixiumd5/api/getTopDailyWinners",
+      "getAccountHistory": "http://api.game.local:9083/w-taixiumd5/api/getAccountHistory",
+      "GetListSoiCau": "http://api.game.local:9083/w-taixiumd5/api/GetListSoiCau",
+      "GetSessionsDetailNew": "http://api.game.local:9083/w-taixiumd5/api/GetSessionsDetailNew"
+    },
+    "API": {
+      "LOGIN": "http://api.game.local:8081/acc/Login",
+      "LOGIN_MOBILE": "http://api.game.local:8081/acc/Login",
+      "LOGOUT": "http://api.game.local:8081/acc/Logout",
+      "LOGOUT_MOBILE": "http://api.game.local:8080/acc/Logout",
+      "LOGIN_OTP": "http://api.game.local:8081/w-portapi/acc/LoginOTP",
+      "LOGIN_OTP_MOBILE": "http://api.game.local:8081/w-portapi/acc/LoginOTP",
+      "ON_OFF_LOGIN_OTP": "http://api.game.local:8080/w-portapi/acc/OnOffLoginOTP",
+      "FACEBOOK_LOGIN_MOBILE": "http://api.game.local:8086/w-portapi/acc/FacebookLoginMobile",
+      "CREATE_ACCOUNTS": "http://api.game.local:8080/w-portapi/acc/CreateAccounts",
+      "CHECKAUTHEN": "http://api.game.local:8081/w-portapi/acc/checkauthen",
+      "GET_ACCOUNT_INFO": "http://api.game.local:8081/w-portapi/acc/GetAccountInfo",
+      "GIFTCODE_CHARGING": "http://api.game.local:8080/w-portapi/GiftCode/GiftCodeCharging",
+      "GET_CAPTCHA": "http://api.game.local:8080/w-portapi/captcha/get",
+      "GET_BALANCE_FREEZE": "http://api.game.local:8080/w-portapi/acc/GetBalanceFreeze",
+      "ACCOUNT_FREEZE": "http://api.game.local:8080/w-portapi/acc/AccountFreeze",
+      "ACCOUNT_UNFREEZE": "http://api.game.local:8080/w-portapi/acc/AccountUnFreeze",
+      "ACCOUNT_CHANGE_PASSWORD": "http://api.game.local:8080/w-portapi/acc/AccountChangePassword",
+      "ACCOUNT_CHANGE_PASSWORD_CONFIRM": "http://api.game.local:8080/w-portapi/acc/AccountChangePasswordConfirm",
+      "UPDATE_NICKNAME": "http://api.game.local:8080/w-portapi/acc/UpdateNickName",
+      "GET_HISTORY": "http://api.game.local:8080/w-portapi/acc/GetHistory",
+      "UPDATE_PHONE": "http://api.game.local:8080/w-portapi/acc/UpdatePhone",
+      "VERIFY_PHONE": "http://api.game.local:8080/w-portapi/acc/VerifyPhone",
+      "RESET_PHONE_NUMBER": "http://api.game.local:8080/w-portapi/acc/ResetPhoneNumber",
+      "RESET_PHONE_NUMBER_NOT_OTP": "http://api.game.local:8080/w-portapi/acc/ResetPhoneNumberNotOTP",
+      "REGISTER_AUTHEN_OTP": "http://api.game.local:8086/w-portapi/acc/RegisterAuthenOtp",
+      "GET_OTP": "http://api.game.local:8080/w-portapi/OtpAPI/Get",
+      "GET_OTP_FEE": "http://api.game.local:8080/w-portapi/OtpAPI/GetOTPFee",
+      "GET_OTP_VERIFY_PHONE": "http://api.game.local:8080/w-portapi/OtpAPI/GetOTPVerifyPhone",
+      "GET_JACKPOT": "http://api.game.local:8087/w-jackpot/jackpot/ListJackpot",
+      "TELCO_CAPTCHA": "http://api.game.local:8080/w-telco/Captcha/Get",
+      "ACCOUNT_FORGET_PASSWORD": "http://api.game.local:8080/w-portapi/acc/AccountForgetPassword",
+      "ACCOUNT_FORGET_PASSWORD_CONFIRM": "http://api.game.local:8080/w-portapi/acc/AccountForgetPasswordConfirm",
+      "UNLOCK_GAME_LIST": "http://api.game.local:8080/w-portapi/acc/UnlockGame_list",
+      "UNLOCK_GAME": "http://api.game.local:8080/w-portapi/acc/UnlockGame",
+      "TELEGRAM": "http://api.game.local:8080/w-portapi/OtpTelegram/GetKey",
+      "TELEGRAM_CHANGE_ACTIVE": "http://api.game.local:8080/w-portapi/OtpTelegram/ChangeActive",
+      "GET_ACCOUNT_BALANCE": "http://api.game.local:8081/w-portapi/acc/GetAccountBalance",
+      "LIST_BANKS_NAP": "http://api.game.local:8080/NapBank_listbank",
+      "LIST_BANKS_RUT": "http://api.game.local:8080/getListBankRut",
+      "BANK_GET_CONFIG": "http://api.game.local:8080/NapBank_bank",
+      "AUTO_DEPOSIT_HISTORY": "http://api.game.local:8084/w-portapi/acc/DepositHistory",
+      "AUTO_WITHDRAW_HISTORY": "http://api.game.local:8084/w-portapi/acc/WithdrawHistory",
+      "CHECK_USERNAME": "http://api.game.local:8080/w-portapi/acc/ValidateUsername",
+      "FAN_PAGE_URL": "https://fb.p24.casino",
+      "GROUP_URL": "https://group.p24.casino",
+      "CSKH_URL": "https://cskh.p24.casino",
+      "TELE_GROUP_URL": "https://telegroup.p24.casino",
+      "TELE_NEWS_URL": "https://telenews.p24.casino",
+      "HOTRO_URL": "https://hotro.p24.casino",
+      "TELE_NAPTIEN_URL": "https://teled.p24.casino",
+      "TELE_RUTTIEN_URL": "https://telew.p24.casino",
+      "LIVE_CHAT_URL": "https://secure.livechatinc.com/licence/18558558/v2/open_chat.cgi",
+      "TELCO_PAYMENT": {
+        "DEPOSIT_TELCO_LIST": "http://api.game.local:8080/w-telco/telco/TelcoGetConfig",
+        "DEPOSIT_REQUEST": "http://api.game.local:8080/w-telco/telco/TelcoPayment",
+        "DEPOSIT_HISTORY": "http://api.game.local:8084/w-telco/telco/TelcoPaymentHistory",
+        "COMPLAIN": "http://api.game.local:8080/w-telco/telco/complain",
+        "BUYCARD_TELCO_LIST": "http://api.game.local:8080/w-telco/telco/TelcoGetConfig",
+        "BUYCARD_REQUEST_STEP1": "http://api.game.local:8080/w-portapi/telco/TelcoBuyCardStep1",
+        "BUYCARD_REQUEST_STEP2": "http://api.game.local:8080/w-portapi/telco/TelcoBuyCardStep2",
+        "BUYCARD_HISTORY": "http://api.game.local:8084/w-portapi/telco/TelcoBuyCardHistory",
+        "BUYCARD_HISTORY_DETAIL": "http://api.game.local:8086/w-portapi/telco/TelcoBuyCardHistoryDetail"
+      },
+      "MOMO_PAYMENT": {
+        "DEPOSIT_ACCOUNT": "http://api.game.local:8080/w-momo/momo/GetMomoData",
+        "WITHDRAW_REQUEST": "http://api.game.local:8080/w-momo/momo/Withdraw",
+        "DEPOSIT_HISTORY": "http://api.game.local:8084/w-momo/momo/DepositHistory",
+        "WITHDRAW_HISTORY": "http://api.game.local:8084/w-momo/momo/WithdrawHistory"
+      },
+      "BANK_PAYMENT": {
+        "DEPOSIT_BANK_LIST": "http://api.game.local:8080/w-bank/bank/DepositBankList",
+        "DEPOSIT_ACCOUNT": "http://api.game.local:8080/w-bank/bank/GetBankData",
+        "WITHDRAW_BANK_LIST": "http://api.game.local:8080/w-bank/bank/WithdrawBankList",
+        "WITHDRAW_REQUEST": "http://api.game.local:8080/w-bank/bank/Withdraw",
+        "DEPOSIT_HISTORY": "http://api.game.local:8084/w-bank/bank/DepositHistory",
+        "WITHDRAW_HISTORY": "http://api.game.local:8084/w-bank/bank/WithdrawHistory"
+      },
+      "TRANSFER_PAYMENT": {
+        "AGENCY_LIST": "http://api.game.local:8084/w-portapi/agency/AgencyList",
+        "TRANSFER_STEP1": "http://api.game.local:8080/w-portapi/acc/TranferStep1",
+        "TRANSFER_STEP2": "http://api.game.local:8080/w-portapi/acc/TranferStep2",
+        "TRANSFER_HISTORY": "http://api.game.local:8084/w-portapi/acc/SP_Account_GetHistory_Tranfer"
+      },
+      "CRYPTO_PAYMENT": {
+        "DEPOSIT_HISTORY": "http://api.game.local:8086/w-crypto/crypto/DepositHistory",
+        "WITHDRAW_HISTORY": "http://api.game.local:8086/w-crypto/crypto/WithdrawHistory"
+      },
+      "VQMM": {
+        "ACCOUNT_GETINFOR": "http://api.game.local:8086/vongquay/gameAPI/Account_GetInfor",
+        "FREESPIN_GET": "http://api.game.local:8086/vongquay/gameAPI/FreeSpin_Get",
+        "SPIN": "http://api.game.local:8086/vongquay/gameAPI/Spin"
+      },
+      "INBOX": {
+        "NOTIFICATIONS_GET_LIST": "http://api.game.local:8086/w-inboxapi/Notify/NotificationsGetList",
+        "NOTIFY_AND_INBOX_GET_LIST": "http://api.game.local:8084/w-inboxapi/Notify/NotifyAndInboxGetList",
+        "NOTIFY_GET_DETAIL": "http://api.game.local:8080/w-inboxapi/Notify/NotifyGetDetail",
+        "INBOX_GET_DETAIL": "http://api.game.local:8084/w-inboxapi/Inbox/InboxGetDetail",
+        "NOTIFY_DELETE": "http://api.game.local:8080/w-inboxapi/Notify/NotifyDelete",
+        "INBOX_DELETE": "http://api.game.local:8084/w-inboxapi/Inbox/InboxDelete"
+      },
+      "LOYAL": {
+        "RANKING_VIP_GET": "http://api.game.local:8080/w-portapi/Loyal/RankingVipGet",
+        "ACCOUNT_VP_GET": "http://api.game.local:8080/w-portapi/Loyal/AccountVPGet",
+        "ACCOUNT_VP_TRADE": "http://api.game.local:8080/w-portapi/Loyal/AccountVPTrade",
+        "EVENT_TOP_VIP_POINT_ALPHA_TEST": "http://api.game.local:8086/w-portapi/Loyal/EventTopVipPointAlphaTest",
+        "BIG_EVENT_TOP_VIP_POINT_SINGLE": "http://api.game.local:8086/w-portapi/Loyal/BigEventTopVipPoint_single",
+        "BIG_EVENT_TOP_VIP_POINT_LIST": "http://api.game.local:8086/w-portapi/Loyal/BigEventTopVipPoint_list"
+      },
+      "EVENT": {
+        "INVENTORY_GET_LIST": "http://api.game.local:8086/w-inboxapi/Account/InventoryGetList",
+        "INVENTORY_RECEIVE_STAR": "http://api.game.local:8086/w-inboxapi/Account/InventoryReceiveStar",
+        "TIME_GET_LIST": "http://api.game.local:9082/w-inboxapi/EventAPI/TimeGetList",
+        "VINH_DANH": "http://api.game.local:9082/w-inboxapi/EventAPI/VinhDanh",
+        "EVENT_JACKPOT_GET": "http://api.game.local:8086/w-inboxapi/EventAPI/EventJackpotGet",
+        "GET_TIME_EVENT": "http://api.game.local:8086/w-sieuxe/api/SuperNova/GetTimeEvent",
+        "CHECK_EVENT": "http://api.game.local:8086/w-sieuxe/api/SuperNova/CheckEvent",
+        "GET_HONOR_EVENT": "http://api.game.local:8086/w-sieuxe/api/SuperNova/GetHonorEvent",
+        "TDVC_GET_EVENT_TIME": "http://api.game.local:8086/w-thiendia/api/GetEventTime",
+        "TDVC_EVENT_GET_TOP": "http://api.game.local:8086/w-thiendia/api/EventGetTop",
+        "TDVC_EVENT_TIME_GET_LIST": "http://api.game.local:8086/w-thiendia/api/EventTimeGetList",
+        "BOMTAN_VINHDANH": "http://api.game.local:8080/w-portapi/EventGetInfo",
+        "LIST_GIFT": "http://api.game.local:8088/event-common/getListGift",
+        "BAI_DEP": {
+          "LEADERBOARD_GET_LIST": "http://api.game.local:8086/vongquay/gameAPI/LeaderBoard_Get_List",
+          "PRIZES_GETLIST": "http://api.game.local:8086/vongquay/gameAPI/Prizes_Getlist"
+        },
+        "EVENT_TET": {
+          "GET_HISTORY": "https://eventtet.p24.casino/event-tet2020/GetShakeHistory",
+          "GET_SHAKE_DATA": "https://eventtet.p24.casino/event-tet2020/GetShakeData",
+          "GET_FREE_SHAKE": "https://eventtet.p24.casino/event-tet2020/GetFreeShake",
+          "GET_SHAKE": "https://eventtet.p24.casino/event-tet2020/ShakeShake",
+          "GET_TOP": "https://eventtet.p24.casino/event-tet2020/GetTop",
+          "GET_PRIZES": "https://eventtet.p24.casino/event-tet2020/GetPrizes"
+        },
+        "EVENT_X2": {
+          "GET_DATA_X2": "http://api.game.local:8089/event-x2/GetAccountBonus",
+          "RECEIVE_GIFT": "http://api.game.local:8089/event-x2/ReceiveAccountBonus"
+        },
+        "EVENT_SWEET_DAY": {
+          "GET_PHIEN": "http://api.game.local:8088/event-sweetday/getSessionList",
+          "GET_TOP": "http://api.game.local:8088/event-sweetday/getTop",
+          "CHECK_EVENT": "http://api.game.local:8088/event-sweetday/checkEvent"
+        },
+        "EVENT_VUA_BO_CAP": {
+          "GET_PHIEN": "http://api.game.local:8088/event-scorpionking/getSessionList",
+          "GET_TOP": "http://api.game.local:8088/event-scorpionking/getTop",
+          "CHECK_EVENT": "http://api.game.local:8088/event-scorpionking/checkEvent"
+        },
+        "EVENT_THANH_QUAY_TAY": {
+          "GET_PHIEN": "http://api.game.local:8088/event-thanhquaytay/getSessionList",
+          "GET_TOP": "http://api.game.local:8088/event-thanhquaytay/getTop",
+          "CHECK_EVENT": "http://api.game.local:8088/event-thanhquaytay/checkEvent"
+        },
+        "EVENT_THANH_PHAN": {
+          "GET_PHIEN": "http://api.game.local:8088/event-thanhphan/getSessionList",
+          "GET_TOP": "http://api.game.local:8088/event-thanhphan/getTop",
+          "CHECK_EVENT": "http://api.game.local:8088/event-thanhphan/checkEvent"
+        },
+        "EVENT_LEN_DOI_SIEU_XE": {
+          "GET_TOP_ISLAND": "https://event-goldisland.p24.casino/top/goldIslandTop",
+          "CHAT_NEGOTIATE": "https://event-goldisland.p24.casino/event-goldisland/signalr/negotiate",
+          "CHAT_HUB": "chatHub",
+          "GET_USER_INFO": "https://event-goldisland.p24.casino/account/getInfo",
+          "GET_INFO_DAO": "https://event-goldisland.p24.casino/island/map",
+          "GET_DIEM_DANH": "https://event-goldisland.p24.casino/dailyFreeAxe/getInfo",
+          "DIEM_DANH": "https://event-goldisland.p24.casino/dailyFreeAxe/receiveAxe",
+          "GET_NHIEM_VU": "https://event-goldisland.p24.casino/dailyMission/listMission",
+          "NHIEM_VU": "https://event-goldisland.p24.casino/dailyMission/receiveMission",
+          "GET_SHOP": "https://event-goldisland.p24.casino/shop/listItem",
+          "SHOP": "https://event-goldisland.p24.casino/shop/buyItem",
+          "ACTIVE_SHIELD": "https://event-goldisland.p24.casino/shield/activeShield",
+          "SPIN_VQMM": "https://event-goldisland.p24.casino/mile/spinMile",
+          "LICHSU_DAODAM": "https://event-goldisland.p24.casino/history/mileSpin",
+          "LICHSU_CUOPDAM": "https://event-goldisland.p24.casino/history/robMile",
+          "LICHSU_SHOP": "https://event-goldisland.p24.casino/history/shop",
+          "LICHSU_QUAYDAO": "https://event-goldisland.p24.casino/history/islandSpin",
+          "QUAY_DAO": "https://event-goldisland.p24.casino/vqmm/spinIsland",
+          "LIST_DAO": "https://event-goldisland.p24.casino/vqmm/listSpin",
+          "CUOP_DAM": "https://event-goldisland.p24.casino/mile/robMile",
+          "TOP_CUOP_DAM": "https://event-goldisland.p24.casino/top/robbedMileTop",
+          "TOP_THO_REN": "https://event-goldisland.p24.casino/top/axeTop",
+          "TOP_TAY_DUA": "https://event-goldisland.p24.casino/top/f1Top",
+          "TOP_GIAU_VANG": "https://event-goldisland.p24.casino/top/goldIslandTop",
+          "TOP10": "https://event-goldisland.p24.casino/top/mileTop",
+          "LIST_WEEK": "https://event-goldisland.p24.casino/top/listWeek"
+        }
+      },
+      "SOCKET_NOTIFY": {
+        "NEGOTIATE": "http://api.game.local:8086/w-socket/signalr/negotiate",
+        "HUB": "gameHub"
+      }
+    }
+  }
+}
