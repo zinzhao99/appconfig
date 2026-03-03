@@ -63,7 +63,7 @@
       "GetSessionsDetailNew": "http://api.game.local:9082/w-taixiu/api/GetSessionsDetailNew"
     },
     "HOST_XOCXOC_GAME": {
-      "host": "api.game.local",
+      "host": "api.game.local:9088",
       "subdomain": "xocxoc",
       "port": 443,
       "ConnectionToken": "",
@@ -72,7 +72,7 @@
       "getRooms": "http://api.game.local:9088/w-xocxoc/api/getRooms"
     },
     "HOST_RONGHO_GAME": {
-      "host": "api.game.local",
+      "host": "api.game.local:9091",
       "subdomain": "rongho",
       "port": 443,
       "ConnectionToken": "",
@@ -92,7 +92,7 @@
       "ConnectionToken": ""
     },
     "HOST_ALADDIN_GAME": {
-      "host": "api.game.local",
+      "host": "api.game.local:8182",
       "subdomain": "aladdin",
       "port": 443,
       "ConnectionToken": "",
@@ -101,7 +101,7 @@
       "GetJackpotHistory": "http://api.game.local:8182/aladdin/api/GetStatistic?MoneyType=1&WinType=-1&Start=1&Limit=100"
     },
     "HOST_LUCKY_WILD_GAME": {
-      "host": "api.game.local",
+      "host": "api.game.local:9086",
       "subdomain": "luckywild",
       "port": 443,
       "ConnectionToken": ""
@@ -125,7 +125,7 @@
       "ConnectionToken": ""
     },
     "HOST_ICEAGE_GAME": {
-      "host": "api.game.local",
+      "host": "api.game.local:9081",
       "subdomain": "iceage",
       "port": 443,
       "ConnectionToken": ""
@@ -167,7 +167,7 @@
       "ConnectionToken": ""
     },
     "HOST_SICBO_GAME": {
-      "host": "api.game.local",
+      "host": "api.game.local:9087",
       "subdomain": "sicbo",
       "port": 443,
       "ConnectionToken": "",
@@ -175,7 +175,7 @@
       "getTopWinner": "http://api.game.local:9087/w-sicbo/api/getTopDailyWinners"
     },
     "HOST_XOCXOCJP_GAME": {
-      "host": "api.game.local",
+      "host": "api.game.local:9089",
       "subdomain": "xocxocjp",
       "port": 443,
       "ConnectionToken": "",
@@ -184,7 +184,7 @@
       "getRooms": "http://api.game.local:9089/w-xocxocjp/api/getRooms"
     },
     "HOST_XOCXOCJPMD5_GAME": {
-      "host": "api.game.local",
+      "host": "api.game.local:9090",
       "subdomain": "xocxocmd5",
       "port": 443,
       "ConnectionToken": "",
