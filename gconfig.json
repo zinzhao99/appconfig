@@ -1,13 +1,13 @@
 {
   "App": {
     "HOST_MAINGAME": {
-      "host": "api.game.local",
+      "host": "api.game.local:8086",
       "subdomain": "common",
       "port": 443,
       "ConnectionToken": ""
     },
     "HOST_MINIPOKER_GAME": {
-      "host": "api.game.local",
+      "host": "api.game.local:9085",
       "subdomain": "mini",
       "port": 443,
       "ConnectionToken": "",
@@ -22,7 +22,7 @@
       }
     },
     "HOST_CANDY_GAME": {
-      "host": "api.game.local",
+      "host": "api.game.local:9080",
       "subdomain": "candy",
       "port": 443,
       "ConnectionToken": "",
@@ -36,7 +36,7 @@
       }
     },
     "HOST_ANGRYBIRD_GAME": {
-      "host": "api.game.local",
+      "host": "api.game.local:9084",
       "subdomain": "",
       "port": 443,
       "ConnectionToken": "",
@@ -46,13 +46,13 @@
       "GetJackpotHistory": "http://api.game.local:9084/w-sieuxe/api/SuperNova/GetJackpotHistory"
     },
     "HOST_THIENDIA_GAME": {
-      "host": "api.game.local",
+      "host": "api.game.local:8086",
       "subdomain": "common",
       "port": 443,
       "ConnectionToken": ""
     },
     "HOST_TAIXIU_GAME": {
-      "host": "api.game.local",
+      "host": "api.game.local:9082",
       "subdomain": "",
       "port": 443,
       "ConnectionToken": "",
@@ -223,7 +223,7 @@
       "ConnectionToken": ""
     },
     "HOST_TAIXIUMD5_GAME": {
-      "host": "api.game.local",
+      "host": "api.game.local:9083",
       "subdomain": "",
       "port": 443,
       "ConnectionToken": "",
